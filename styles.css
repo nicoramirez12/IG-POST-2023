@@ -1,0 +1,20 @@
+body {
+    background-color: black;
+    
+}
+.post {
+    background-color: white;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+div.post .post_header div:first-child {
+    display: inline-flex;
+    width: 10%;
+    margin: auto;
+}
+div.post .post_header div:last-child {
+    display: inline-flex;
+    width: 11%;
+}
