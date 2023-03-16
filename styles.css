@@ -3,18 +3,37 @@ body {
     
 }
 .post {
-    background-color: white;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 40%;
+   width: 600px;
+  margin: 20px auto;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  font-family: Arial, sans-serif;
 }
-div.post .post_header div:first-child {
-    display: inline-flex;
-    width: 10%;
-    margin: auto;
+.image img { 
+    padding: auto;
+    border-radius: 0%;
+    width: 100%;
 }
-div.post .post_header div:last-child {
-    display: inline-flex;
-    width: 11%;
+.icons i{
+    margin: 5px 5px;
+    font-size: 33px;
+}
+.post_header {
+    position: relative;
+}
+.primer-icono{
+    position: absolute;
+    left: 0;
+    top: 0px;
+    margin: 5px;
+}
+.segundo-icono h2{
+    margin: 40px;
+    font-size: medium;
+}
+.tercer-icono i{
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-size: 40px;
 }
