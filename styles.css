@@ -18,6 +18,11 @@ body {
     margin: 5px 5px;
     font-size: 33px;
 }
+.icons i:last-child{
+    float: right;
+    margin: 5px 5px;
+    padding: 5px;
+}
 .post_header {
     position: relative;
 }
@@ -36,4 +41,5 @@ body {
     right: 0;
     top: 0;
     font-size: 40px;
+    margin: 10px;
 }
